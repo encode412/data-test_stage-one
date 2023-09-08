@@ -59,7 +59,6 @@ td {
   border-right: 2px solid #1c1c1c;
 }
 
-
 td:nth-child(6) {
   border-right: none;
 }
@@ -76,8 +75,19 @@ a:hover {
   text-decoration: underline;
 }
 
+img {
+  border-radius: 50%;
+  width: 150px;
+}
+
+/* #day,
+#utc-time {
+  font-size: 1.2rem;
+  font-style: italic;
+} */
+
 @media screen and (max-width: 480px) {
-/* 
+  /* 
     section {
         margin-bottom: 1rem;
     } */
@@ -116,7 +126,8 @@ a:hover {
   }
 
   tbody tr td {
-    margin-bottom: 2.2rem;
+    margin-bottom: 2.7rem;
+    margin-top: 1.13rem;
     padding-left: 0px;
   }
 }
